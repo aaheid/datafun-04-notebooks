@@ -23,3 +23,35 @@ to get these projects running on your machine.
   - [RESOURCES.md](./module/RESOURCES.md)
   - [seaborn-datasets.md](./module/seaborn-datasets.md)
   - [TROUBLESHOOTING.md](./module/TROUBLESHOOTING.md)
+
+## Custom Project
+
+### Dataset
+
+For this project, I used the seaborn iris dataset. The dataset contains 150 observations of iris flowers and includes measurements of sepal length, sepal width, petal length, petal width, and species. The dataset is included with seaborn and is commonly used for exploratory data analysis and classification examples.
+
+### Phase 4 Modifications
+
+I modified the example notebook by adding a missing values analysis using `df.isnull().sum()`. I also added narrative observations to explain the results. This helped verify the quality of the data before continuing with the analysis.
+
+### Phase 5 Custom Project
+
+I created a new notebook named `eda_aheid.ipynb` and performed an Exploratory Data Analysis (EDA) on the iris dataset.
+
+The notebook includes:
+
+- Dataset shape
+- Data types
+- Missing values analysis
+- Descriptive statistics
+- Histogram of sepal length
+- Boxplot of petal length by species
+- Narrative observations after each section
+
+### Interesting Pattern
+
+Petal length varies substantially among the three iris species and appears to be a strong indicator of species type.
+
+### Next Analytical Step
+
+A useful next step would be to build a classification model that predicts iris species using the flower measurements.
